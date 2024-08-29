@@ -32,6 +32,21 @@ ol, ul {
 	list-style: none;
 }
 
+.demo-links {
+	display: flex;
+    gap: 15px;
+    justify-content: left;
+}
+
+.demo-links a.special {
+    display: inline-block;
+}
+
+.demo-links div {
+    margin-bottom: 0;
+	padding-bottom: 0;
+}
+
 blockquote, q {
 	quotes: none;
 }
